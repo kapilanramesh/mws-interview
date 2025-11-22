@@ -1,0 +1,2 @@
+1. Had issue in sns gmail alert notify
+2. Had issue in SSM connect of priv sub
