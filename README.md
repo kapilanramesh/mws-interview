@@ -138,7 +138,7 @@ Used stress command to trigger alarms.
 
 ### ✔ Ran the container inside EC2
 
-### ✔ Exposed application through port 8000
+### ✔ Exposed application through port 80
 
 ### ✔ Verified application output
 
@@ -151,19 +151,19 @@ Used stress command to trigger alarms.
 ### **Build Image**
 
 ```bash
-docker build -t mws-app .
+docker build -t nginx-app .
 ```
 
 ### **Run Container**
 
 ```bash
-docker run -d -p 8000:8000 mws-app
+docker run -d -p 80:80 nginx-app
 ```
 
 ### **Verify**
 
 ```bash
-curl localhost:8000
+curl localhost:80
 ```
 
 ---
