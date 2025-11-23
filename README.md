@@ -102,7 +102,7 @@ The following AWS resources were created manually as part of the interview:
 
 ### ✔ Security Group Rules
 
-* Allow **only port 8000 (UDP/TCP)**
+* Allow **only port 8000 (UDP)**
 * Deny all other inbound ports
 * Allow outbound traffic
 
